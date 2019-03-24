@@ -8,3 +8,14 @@ export const authComputed = {
 }
 
 export const authMethods = mapActions('auth', ['logIn', 'logOut'])
+
+export const messagesComputed = {
+  ...mapState('messages', {
+    pastMessages: (state) => state.messages,
+  }),
+}
+
+export const messagesMethods = mapActions('messages', [
+  'fetchMessages',
+  'postMessage',
+])

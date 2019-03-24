@@ -7,6 +7,8 @@ describe('@views/home', () => {
 
   it('renders an element', () => {
     const { element } = shallowMountView(Home)
-    expect(element.textContent).toContain('Home Page')
+    expect(element.textContent).toContain(
+      'Honestly Chat Integration Message Sender'
+    )
   })
 })
