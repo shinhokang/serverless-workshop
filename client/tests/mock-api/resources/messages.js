@@ -12,7 +12,7 @@ module.exports = {
       message: 'Good morning, it is great Monday today!',
       createdAt: '2019-03-25 08:10:10',
     },
-  ].reverse(),
+  ],
   post({ username, message }) {
     return new Promise((resolve, reject) => {
       let currentDate = new Date()
@@ -23,14 +23,17 @@ module.exports = {
           10
         )} ${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`
 
-      const newMessages = this.all.reverse().push({
-        id: 3,
+      const messages = this.all
+      const maxId = messages.length
+
+      messages.push({
+        id: maxId + 1,
         username,
         message,
         createdAt,
       })
 
-      resolve(newMessages)
+      resolve(messages)
     })
   },
 }
