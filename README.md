@@ -48,6 +48,17 @@ rm -rf .git
 
 ```
 
+#### The Mock API
+
+```
+GET /api/messages
+POST /api/messages
+  Body {
+    username: string,
+    message: string,
+  }
+```
+
 ### AWS
 
 ### Serverless framework
