@@ -50,6 +50,8 @@ rm -rf .git
 
 #### The Mock API
 
+See the code `tests/mock-api/routes/messages.js` and `tests/mock-api/resources/messages.js`
+
 ```
 GET /api/messages
 POST /api/messages
@@ -58,6 +60,15 @@ POST /api/messages
     message: string,
   }
 ```
+
+#### New components
+
+```
+yarn new component
+```
+
+- PostMessage
+- MessageList
 
 ### AWS
 
