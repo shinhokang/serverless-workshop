@@ -81,3 +81,10 @@ yarn new component
 ### AWS
 
 ### Serverless framework
+
+## Todo
+
+- [x] client app
+- [ ] client app - aws deploy
+- [ ] serverless framework setting
+- [ ] aws lambda deploy
