@@ -61,6 +61,14 @@ POST /api/messages
   }
 ```
 
+### New module
+
+```
+yarn new module
+```
+
+- messages
+
 #### New components
 
 ```
