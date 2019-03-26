@@ -78,9 +78,25 @@ yarn new component
 - PostMessage
 - MessageList
 
-### AWS
-
 ### Serverless framework
+
+Tutorial https://serverless.com/blog/serverless-express-rest-api/
+
+#### Pre-requisites
+
+1. Node.js v6.5.0 or later.
+1. Serverless CLI v1.9.0 or later. You can run npm install -g serverless to install it.
+1. An AWS account. If you don't already have one, you can sign up for a free trial that includes 1 million free Lambda requests per month.
+1. Set-up your Provider Credentials -> Watch the video on setting up credentials
+
+#### Set up
+
+To set up the
+
+```
+$ mkdir apis && cd apis
+$ npm ini -f
+```
 
 ## Todo
 
